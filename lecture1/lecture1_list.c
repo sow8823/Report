@@ -29,4 +29,11 @@ int main() {
     printf("%d ", current->data);
     current = current->next;
   }
+
+  current = head;
+  while (current != NULL) {
+    struct list *tes = current;
+    current = current->next;
+    free(tes);
+  }
 }
