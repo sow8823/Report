@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 int binary_search(int K, int m, int n){
-  int target[50] = {};
+  int target[49] = {};
+  // int* target = new int[50];
   for(int a = 0; a < 50; a++) {
     target[a] = a;
   }
