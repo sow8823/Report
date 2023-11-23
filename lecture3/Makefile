@@ -1,10 +1,10 @@
-T1 = sow_bptree
+T1 = bptree
 
 CC = g++
 CFLAGS = -g -c -Wall -O2
 LDFLAGS = -lm -pthread 
 
-OBJ_T1 = sow_bptree.o
+OBJ_T1 = bptree.o
 
 all: $(T1) 
 
